@@ -5,7 +5,7 @@
 				<h1><i class="fa fa-soundcloud"></i> Inscrivez-vous !</h1>
 				<?php if(isset($_SESSION['message']) && !empty($_SESSION['message'])){ ?>
 				<div class="alert alert-danger alert-dismissable">
-					<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+					<button type="button" class="close" name ="button_change" data-dismiss="alert" aria-hidden="true">&times;</button>
 					<?php echo $_SESSION['message']; ?>
 					<?php unset($_SESSION['message']); ?>
 				</div>
