@@ -13,7 +13,7 @@ require('model/functions.fn.php');
 
 if(isset($_POST['email']) && isset($_POST['password'])){
 	$email = htmlspecialchars($_POST["email"]);
-	$password = htmlspecialchars($_POST["password"]);
+	$password = htmlspecialchars($_POST["password"]); //s
 	if(!empty($_POST['email']) && !empty($_POST['password'])){
 
 		// TODO
