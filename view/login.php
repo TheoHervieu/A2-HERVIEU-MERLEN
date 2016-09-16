@@ -21,10 +21,13 @@
 						</span>
 					</div>
 					<div class="form-submit">
-						<input type="submit" value="Connecter" name="button_connect">	
+						<input type="submit" value="Connecter" name="button_connect">
 					</div>
 					<p class="account">Vous n'avez pas de compte ? <a href="register.php">Inscrivez vous !</a></p>
+					Nous rejoindre sur : <?php echo '<p><a href="https://www.facebook.com/games/soundcloud/?fbs=1101&fref=ts">facebook</a></p>'; ?>
+
+					ou bien sur : <?php echo '<p><a href="https://twitter.com/SoundCloud">twitter</a></p>'; ?>
 				</form>
 			</div>
 		</div>
-	</section> 
+	</section>
